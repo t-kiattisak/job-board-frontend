@@ -4,6 +4,10 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
+      "@domain/*": ["lib/domain/*"],
+      "@data/*": ["lib/data/*"],
+      "@infra/*": ["lib/infrastructure/*"],
+      "@hooks/*": ["lib/hooks/*"],
       "@workspace/ui/*": ["../../packages/ui/src/*"]
     },
     "plugins": [
