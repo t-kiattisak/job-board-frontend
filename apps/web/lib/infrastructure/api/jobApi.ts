@@ -1,5 +1,3 @@
-export const getJobsApi = async () => {
-  const res = await fetch("/api/jobs")
-  if (!res.ok) throw new Error("Failed to fetch jobs")
-  return res.json()
-}
+import { network } from "../networks"
+
+export const getJobsApi = () => network.get("/jobs")

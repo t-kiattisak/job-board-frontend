@@ -8,6 +8,7 @@
       "@data/*": ["lib/data/*"],
       "@infra/*": ["lib/infrastructure/*"],
       "@hooks/*": ["lib/hooks/*"],
+      "@utils/*": ["lib/utils/*"],
       "@workspace/ui/*": ["../../packages/ui/src/*"]
     },
     "plugins": [
